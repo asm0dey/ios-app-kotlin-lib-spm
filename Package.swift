@@ -15,7 +15,7 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "shared",
-            path: "./shared.xcframework"
+            url: "https://raw.githubusercontent.com/asm0dey/ios-app-kotlin-lib-spm/main/shared-1.0.0.zip"
         ),
     ]
 )

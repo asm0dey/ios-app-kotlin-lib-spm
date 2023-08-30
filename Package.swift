@@ -15,7 +15,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "shared",
-            url: "https://raw.githubusercontent.com/asm0dey/ios-app-kotlin-lib-spm/main/shared-1.0.0.zip"
+            url: "https://media.githubusercontent.com/media/asm0dey/ios-app-kotlin-lib-spm/0.0.0.2/shared-1.0.0.zip",
+            checksum: "0c84388978b7bdfa53c22ffae9d4978f7fd4330e3f84681161b8b0edba075144"
         ),
     ]
 )
